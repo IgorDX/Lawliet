@@ -2,6 +2,9 @@
    .search__button{
         display: none;
     }
+    .burger__menu{
+        display: block;
+    }
     .navigation{
         position: absolute;
         top: 0;
