@@ -111,8 +111,11 @@
     }
     .footer__nav{
         margin-top: 20px;
-        justify-content: center;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer__nav h4{
+        margin-right: 0px;
     }
 }
 

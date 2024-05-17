@@ -6,6 +6,10 @@
 body.lock{
     overflow: hidden;
 }
+.left__hero{
+    display: flex;
+    flex-direction: column;
+}
 .burger__menu{
     display: none;
     width: 24px;
@@ -171,7 +175,7 @@ max-width: 590px;
 margin-bottom: 42px;
 }
 
-.hero__button-wrapper button{
+.hero__button-wrapper{
     font-family: Plus Jakarta Sans;
     font-size: 16px;
     font-weight: 700;
